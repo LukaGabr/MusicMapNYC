@@ -1,0 +1,122 @@
+[
+  {
+    "id": "cbgb",
+    "name": "CBGB (original site)",
+    "category": "venue",
+    "address": "315 Bowery, New York, NY 10003",
+    "yearRange": "1973–2006",
+    "description": "Legendary punk club founded by Hilly Kristal. Launch pad for the Ramones, Blondie, Patti Smith, Talking Heads, and Television. Building is a contributing property in the Bowery Historic District (added to the National Register in 2013). Now a menswear store that preserves some original interior elements."
+  },
+  {
+    "id": "village-vanguard",
+    "name": "Village Vanguard",
+    "category": "venue",
+    "address": "178 7th Ave S, New York, NY 10014",
+    "yearRange": "1935–present",
+    "description": "Oldest continuously operating jazz club in NYC, opened by Max Gordon. Started as a folk and beat-poetry venue, became a jazz landmark from 1957 onward, hosting Coltrane, Miles Davis, and generations of jazz legends since."
+  },
+  {
+    "id": "cafe-wha",
+    "name": "Cafe Wha?",
+    "category": "venue",
+    "address": "115 MacDougal St, New York, NY 10012",
+    "yearRange": "1959–present",
+    "description": "Folk/coffeehouse venue where Bob Dylan played some of his first NYC gigs; also an early stage for Jimi Hendrix and Bruce Springsteen."
+  },
+  {
+    "id": "gerdes-folk-city",
+    "name": "Gerde's Folk City (site)",
+    "category": "venue",
+    "address": "11 W 4th St, New York, NY 10012",
+    "yearRange": "1952–1986 (multiple addresses)",
+    "description": "Central hub of the Village folk revival. Hosted Bob Dylan's first paid NYC performance, opening for John Lee Hooker in 1961."
+  },
+  {
+    "id": "bitter-end",
+    "name": "The Bitter End",
+    "category": "venue",
+    "address": "147 Bleecker St, New York, NY 10012",
+    "yearRange": "1961–present",
+    "description": "One of NYC's oldest rock clubs still operating in its original location. Early stage for Bob Dylan, Joni Mitchell, Neil Young, and Lady Gaga decades later."
+  },
+  {
+    "id": "electric-lady-studios",
+    "name": "Electric Lady Studios",
+    "category": "venue",
+    "address": "52 W 8th St, New York, NY 10011",
+    "yearRange": "1970–present",
+    "description": "Recording studio built by Jimi Hendrix, one of the first artist-owned studios in the world. Still an active professional studio today."
+  },
+  {
+    "id": "bowery-ballroom",
+    "name": "Bowery Ballroom",
+    "category": "venue",
+    "address": "6 Delancey St, New York, NY 10002",
+    "yearRange": "1997–present",
+    "description": "Beloved mid-size indie/rock venue known for its Art Deco interior and reliably great sound."
+  },
+  {
+    "id": "physical-graffiti",
+    "name": "Physical Graffiti cover location",
+    "category": "album_cover",
+    "address": "96–98 St Marks Place, New York, NY 10009",
+    "yearRange": "1975",
+    "description": "Led Zeppelin's iconic double-album cover, shot on this East Village block. Designer Peter Corriston cropped a floor out of the buildings to fit the square format. Also used by the Rolling Stones for their 'Waiting on a Friend' video.",
+    "artist": "Led Zeppelin",
+    "albumTitle": "Physical Graffiti"
+  },
+  {
+    "id": "freewheelin-dylan",
+    "name": "The Freewheelin' Bob Dylan cover location",
+    "category": "album_cover",
+    "address": "Jones St & W 4th St, New York, NY 10014",
+    "yearRange": "1963",
+    "description": "Dylan and girlfriend Suze Rotolo walking down snowy Jones Street, one of the most reproduced album covers of all time.",
+    "artist": "Bob Dylan",
+    "albumTitle": "The Freewheelin' Bob Dylan"
+  },
+  {
+    "id": "innocent-man",
+    "name": "An Innocent Man cover location",
+    "category": "album_cover",
+    "address": "142 Mercer St, New York, NY 10012",
+    "yearRange": "1983",
+    "description": "Billy Joel's cover shot in Soho for his doo-wop/R&B homage album.",
+    "artist": "Billy Joel",
+    "albumTitle": "An Innocent Man"
+  },
+  {
+    "id": "ramones-debut",
+    "name": "Ramones debut album cover location",
+    "category": "album_cover",
+    "address": "Albert's Garden, 2nd Ave, New York, NY 10003",
+    "yearRange": "1976",
+    "description": "Shot by Roberta Bayley against a wall in this private East Village community garden; became the definitive image of the band.",
+    "artist": "Ramones",
+    "albumTitle": "Ramones"
+  },
+  {
+    "id": "joey-ramone-place",
+    "name": "Joey Ramone Place",
+    "category": "landmark",
+    "address": "Bowery & E 2nd St, New York, NY 10003",
+    "yearRange": "2003–present",
+    "description": "Street co-named in honor of the Ramones' frontman, right around the corner from the old CBGB site."
+  },
+  {
+    "id": "arturo-vega-loft",
+    "name": "Arturo Vega's Loft",
+    "category": "landmark",
+    "address": "6 E 2nd St, New York, NY 10003",
+    "yearRange": "1970s–1980s",
+    "description": "Home base and rehearsal space of the Ramones' longtime art director, who designed the band's iconic eagle logo."
+  },
+  {
+    "id": "washington-sq-folk",
+    "name": "Washington Square Park",
+    "category": "landmark",
+    "address": "Washington Square Park, New York, NY 10012",
+    "yearRange": "1950s–present",
+    "description": "Sunday folk gatherings here in the 1950s-60s helped ignite the Village folk scene; still a busker hub today."
+  }
+]
