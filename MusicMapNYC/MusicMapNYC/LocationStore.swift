@@ -20,10 +20,10 @@ final class LocationStore: ObservableObject {
         reviewsByLocationID[locationID, default: []].append(review)
     }
 
-    // Artwork URLs fetched from MusicKit, cached by location id so we
+    // Artwork URLs fetched from Discogs, cached by location id so we
     // only search the catalog once per location, not on every screen visit.
     @Published var artworkURLByLocationID: [String: URL] = [:]
-    private let artworkService = MusicKitArtworkService()
+    private let artworkService = DiscogsArtworkService()
 
     func loadArtworkIfNeeded(for location: Location) {
         guard let artist = location.artist, let album = location.albumTitle else { return }

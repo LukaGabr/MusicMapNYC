@@ -58,7 +58,7 @@ struct LocationDetailView: View {
                     ProgressView()
                         .frame(height: 200)
                 }
-                Text("Artwork via Apple Music")
+                Text("Artwork via Discogs")
                     .font(.caption2)
                     .foregroundStyle(.tertiary)
             } else {

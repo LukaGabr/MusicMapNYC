@@ -1,5 +1,4 @@
 import SwiftUI
-import MusicKit
 
 @main
 struct MusicMapNYCApp: App {
@@ -9,11 +8,7 @@ struct MusicMapNYCApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(store)
-                .task {
-                    // MusicAuthorization.request() must complete before any
-                    // MusicCatalogSearchRequest will succeed. This shows the
-                    // system permission prompt the first time the app runs.
-                    _ = await MusicAuthorization.request()
+                .onAppear {
                     store.loadLocations()
                 }
         }
