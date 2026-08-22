@@ -25,10 +25,10 @@ struct ContentView: View {
                         }
                     }
                 }
-                // Map's `selection` binding is separate from sheet presentation on
-                // purpose — this lets tapping a pin and tapping a list row both
-                // funnel into the same single sheet below, rather than each
-                // driving its own .sheet() modifier (which was the actual bug).
+                // Forces MapKit's own dark tile set so the map matches the
+                // new dark toolbar/background instead of clashing with a
+                // default light map underneath.
+                .colorScheme(.dark)
                 .onChange(of: selectedLocation) { _, newValue in
                     if let location = newValue {
                         activeSheet = .detail(location)
@@ -43,6 +43,9 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("NYC Music Map")
+            .toolbarBackground(Theme.background, for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
+            .toolbarColorScheme(.dark, for: .navigationBar)
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
                     Button("List") {
@@ -50,9 +53,6 @@ struct ContentView: View {
                     }
                 }
             }
-            // A single sheet modifier, switching on which case is active.
-            // This replaces the old pair of .sheet(isPresented:) + .sheet(item:),
-            // which is what was silently failing to present anything.
             .sheet(item: $activeSheet, onDismiss: { selectedLocation = nil }) { sheet in
                 switch sheet {
                 case .list:
@@ -78,8 +78,6 @@ struct ContentView: View {
     }
 }
 
-// Represents which single sheet (if any) is currently showing.
-// Identifiable so it can drive .sheet(item:) directly.
 enum ActiveSheet: Identifiable {
     case list
     case detail(Location)
