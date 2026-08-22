@@ -13,6 +13,9 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		81EDBD2D3039074300BB74AB /* MusicMapNYC */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			explicitFileTypes = {
+				Secrets.swift = sourcecode.swift;
+			};
 			path = MusicMapNYC;
 			sourceTree = "<group>";
 		};
